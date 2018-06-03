@@ -3,6 +3,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico?">
+
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">

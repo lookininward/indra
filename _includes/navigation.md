@@ -7,15 +7,15 @@
    <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">
+    <div class="navbar-nav ml-auto text-center text-md-left">
+      <a class="nav-item nav-link active" href="#about">
         About
-        <span class="sr-only">(current)</span>
+        <!-- <span class="sr-only">(current)</span> -->
       </a>
-      <a class="nav-item nav-link" href="#">
+      <a class="nav-item nav-link" href="#footer">
         Contact
       </a>
-      <a class="nav-item nav-link" href="#">
+      <a class="nav-item nav-link" href="#testimonials">
         Testimonials
       </a>
     </div>

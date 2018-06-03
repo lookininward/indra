@@ -1,16 +1,15 @@
-<div class="footer">
+<div class="footer" id="footer">
   <div class="pre">
-      <div class="header mb-3">
-        Contact us and find out more.
-      </div>
-      <div class="body">
-        Real Estate can be challenging and stressfull, we'll help you find focus, understanding that this is about people, the places they inhabit, and the lives they create.
-      </div>
-
+    <div class="header mb-3">
+      Contact us and find out more.
+    </div>
+    <div class="body">
+      Real Estate can be challenging and stressfull, we'll help you find focus, understanding that this is about people, the places they inhabit, and the lives they create.
+    </div>
   </div>
 
   <div class="info">
-    <div class="header">
+    <div class="header mb-3 mb-mb-0">
       Indra Michael Xavier
     </div>
     <div class="address mb-3">
@@ -28,8 +27,6 @@
     </div>
   </div>
 </div>
-
-
 
 </body>
 </html>
