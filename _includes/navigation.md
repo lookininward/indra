@@ -8,17 +8,17 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto text-center text-md-left">
-      <a class="nav-item nav-link active" href="#about">
+      <a class="nav-item nav-link active" href="{{site.baseurl}}/#about">
         About
         <!-- <span class="sr-only">(current)</span> -->
       </a>
       <a class="nav-item nav-link" href="{{site.baseurl}}/search">
         Search
       </a>
-      <a class="nav-item nav-link" href="#footer">
+      <a class="nav-item nav-link" href="{{site.baseurl}}/contact">
         Contact
       </a>
-      <a class="nav-item nav-link" href="#testimonials">
+      <a class="nav-item nav-link" href="{{site.baseurl}}/testimonials">
         Testimonials
       </a>
     </div>
