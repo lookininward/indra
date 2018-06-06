@@ -1,9 +1,5 @@
 {% include header.md %}
 
-<div class="notification">
-  The gta offers stability, prosperity, and longevity
-</div>
-
 <div id="carouselExampleControls"
      class="carousel slide"
      data-ride="carousel"

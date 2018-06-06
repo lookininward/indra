@@ -22,4 +22,6 @@
 </head>
 <body>
   {% include navigation.md %}
-
+  <div class="notification">
+    The gta offers stability, prosperity, and longevity
+  </div>

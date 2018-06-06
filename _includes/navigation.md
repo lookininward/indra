@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
-  <a class="navbar-brand" href="#">
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <a class="navbar-brand" href="{{site.baseurl}}/">
     <img src="{{site.baseurl}}/assets/img/logo-homelife.gif">
     Indra MX
   </a>
@@ -11,6 +11,9 @@
       <a class="nav-item nav-link active" href="#about">
         About
         <!-- <span class="sr-only">(current)</span> -->
+      </a>
+      <a class="nav-item nav-link" href="{{site.baseurl}}/search">
+        Search
       </a>
       <a class="nav-item nav-link" href="#footer">
         Contact
