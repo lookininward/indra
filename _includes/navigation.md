@@ -1,24 +1,61 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
+  <!-- Brand -->
   <a class="navbar-brand" href="{{site.baseurl}}/">
     <img src="{{site.baseurl}}/assets/img/logo-homelife.gif">
     Indra MX
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
+
+  <!-- Toggle Expansion -->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbar"
+    aria-controls="navbar"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+  <!--  Menu -->
+  <div class="collapse navbar-collapse" id="navbar">
     <div class="navbar-nav ml-auto text-center text-md-left">
-      <a class="nav-item nav-link active" href="{{site.baseurl}}/#about">
-        About
-        <!-- <span class="sr-only">(current)</span> -->
+      <a
+        class="
+          nav-item nav-link
+          {% if '/' == page.url %}active{% endif %}
+        "
+        href="{{site.baseurl}}/"
+      >
+        Home
       </a>
-      <a class="nav-item nav-link" href="{{site.baseurl}}/search">
+      <a
+        class="
+          nav-item nav-link
+          {% if '/search' == page.url %}active{% endif %}
+        "
+        href="{{site.baseurl}}/search"
+      >
         Search
       </a>
-      <a class="nav-item nav-link" href="{{site.baseurl}}/contact">
+      <a
+        class="
+          nav-item nav-link
+          {% if '/contact' == page.url %}active{% endif %}
+        "
+        href="{{site.baseurl}}/contact"
+      >
         Contact
       </a>
-      <a class="nav-item nav-link" href="{{site.baseurl}}/testimonials">
+      <a
+        class="
+          nav-item nav-link
+          {% if '/testimonials' == page.url %}active{% endif %}
+        "
+        href="{{site.baseurl}}/testimonials"
+      >
         Testimonials
       </a>
     </div>

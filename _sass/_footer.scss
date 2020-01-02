@@ -1,0 +1,62 @@
+// Footer ---------------------------------------------------------------------
+.footer {
+  margin-top: 50px;
+
+  @media (min-width: 767.98px) {
+    margin: 10em 0 0 0;
+  }
+
+  // Section 1 ----------------------------------------------------------------
+  .pre {
+    padding: 50px 20px;
+    background-color: $grey-100;
+    font-family: $font-ralewayfont;
+    text-align: center;
+
+    @media (min-width: 767.98px) {
+      padding: 100px 80px;
+    }
+  }
+
+  .pre .header {
+    font-size: $fontSize-lg;
+    font-weight: 500;
+    line-height: 1.1;
+
+     @media (min-width: 767.98px) {
+      font-size: $fontSize-xl;
+    }
+  }
+
+  .pre .body {
+    font-size: $fontSize-sm;
+
+    @media (min-width: 767.98px) {
+      font-size: $fontSize-md;
+    }
+  }
+
+  // Section 2 ----------------------------------------------------------------
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    background-color: $blue-000;
+    font-family: $font-ralewayfont;
+    color: $white;
+
+    img {
+      max-width: 180px;
+      margin-right: 40px;
+    }
+  }
+
+  .info .header {
+    font-size: $fontSize-md;
+
+    @media (min-width: 767.98px) {
+      font-size: $fontSize-xl;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+// Notification ---------------------------------------------------------------
+.notification {
+  display: flex;
+  flex-direction: column;
+  background: $purple;
+  margin-top: 55px;
+  padding: 10px 0;
+  box-shadow: inset -1px -5px 162px -54px rgba(0, 0, 0, 0.36);
+  font-family: $font-ralewayfont;
+  font-size: $fontSize-xs;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+}

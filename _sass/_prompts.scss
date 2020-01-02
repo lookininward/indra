@@ -1,0 +1,57 @@
+// Prompts --------------------------------------------------------------------
+.prompt {
+  padding: 50px 20px 20px 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: $white;
+
+  @media (min-width: 767.98px) {
+    position: relative;
+    top: -70px;
+    padding: 50px;
+    max-width: 70%;
+  }
+}
+
+.prompt-header {
+  margin-bottom: 20px;
+  font-family: $font-ralewayfont;
+  font-size: $fontSize-md;
+  font-weight: 500;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: 767.98px) {
+    margin-bottom: 30px;
+    font-size: $fontSize-lg;
+  }
+}
+
+.prompt-body {
+  font-size: $fontSize-sm;
+  font-weight: normal;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  text-align: center;
+
+  @media (min-width: 767.98px) {
+    font-family: $font-ralewayfont;
+    font-size: $fontSize-sm;
+    line-height: 30px;
+    letter-spacing: unset;
+  }
+}
+
+.message {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $grey-000;
+
+  @media (min-width: 767.98px) {
+    padding: 100px 80px;
+  }
+}
